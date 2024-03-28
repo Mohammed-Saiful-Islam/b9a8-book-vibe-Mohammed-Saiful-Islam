@@ -20,7 +20,7 @@ const Nav = () => {
           </div>
           <Link />
           <NavLink />
-          <Link to='/' className="btn btn-ghost text-xl font-bold">Book Vibe</Link>
+          <Link to='/' className="btn btn-ghost sm:text-xl md:text-2xl lg:text-3xl font-bold">Book Vibe</Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
@@ -33,8 +33,8 @@ const Nav = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn bg-green-600 text-white">Sign In</a>
-          <a className="btn bg-[#59C6D2] text-white">Sign Up</a>
+          <a className="btn btn-sm lg:btn-md bg-green-600 text-white">Sign In</a>
+          <a className="btn btn-sm lg:btn-md bg-[#59C6D2] text-white">Sign Up</a>
         </div>
       </div>
     </div>
