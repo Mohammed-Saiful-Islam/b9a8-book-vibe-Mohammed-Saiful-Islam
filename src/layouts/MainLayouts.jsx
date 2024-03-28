@@ -1,3 +1,4 @@
+import { Outlet } from "react-router-dom";
 import Nav from "../components/Nav";
 
 const MainLayouts = () => {
@@ -5,6 +6,9 @@ const MainLayouts = () => {
         <div >
             <div>
                 <Nav />
+            </div>
+            <div>
+                <Outlet />
             </div>
         </div>
     );
