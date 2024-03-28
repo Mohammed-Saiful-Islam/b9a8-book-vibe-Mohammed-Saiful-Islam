@@ -1,0 +1,80 @@
+[
+    {
+      "bookId": 1,
+      "bookName": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "image": "https://images.csmonitor.com/csm/2013/04/gatsby.jpg?alias=standard_900x600",
+      "review": "A timeless classic exploring the decadence and moral ambiguity of the Jazz Age.",
+      "totalPages": 180,
+      "rating": 4.5,
+      "category": "Fiction",
+      "tags": ["Classic", "Romance"],
+      "publisher": "Scribner",
+      "yearOfPublishing": 1925
+    },
+    {
+      "bookId": 2,
+      "bookName": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "image": "https://chapters.pk/cdn/shop/products/91REf0GGuiL.jpg?v=1634436408",
+      "review": "A poignant tale of racial injustice and moral growth in the American South.",
+      "totalPages": 324,
+      "rating": 4.8,
+      "category": "Fiction",
+      "tags": ["Coming of Age", "Legal Drama"],
+      "publisher": "J. B. Lippincott & Co.",
+      "yearOfPublishing": 1960
+    },
+    {
+      "bookId": 3,
+      "bookName": "1984",
+      "author": "George Orwell",
+      "image": "https://www.frostclick.com/wp/wp-content/uploads/2013/06/1.jpg",
+      "review": "A dystopian masterpiece that serves as a warning against totalitarianism.",
+      "totalPages": 328,
+      "rating": 4.7,
+      "category": "Fiction",
+      "tags": ["Dystopian", "Political"],
+      "publisher": "Secker & Warburg",
+      "yearOfPublishing": 1949
+    },
+    {
+      "bookId": 4,
+      "bookName": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "image": "https://qph.cf2.quoracdn.net/main-qimg-e96f6c7d14cefc6d93d884f5b964198a-pjlq",
+      "review": "A rebellious journey through adolescence, capturing the angst and alienation of youth.",
+      "totalPages": 224,
+      "rating": 4.4,
+      "category": "Fiction",
+      "tags": ["Coming of Age", "Existential"],
+      "publisher": "Little, Brown and Company",
+      "yearOfPublishing": 1951
+    },
+    {
+      "bookId": 5,
+      "bookName": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "image": "https://www.loyalbooks.com/image/detail/Pride-and-Prejudice-Jane-Austen.jpg",
+      "review": "A charming portrayal of manners, marriage, and societal expectations in Georgian England.",
+      "totalPages": 432,
+      "rating": 4.6,
+      "category": "Fiction",
+      "tags": ["Romance", "Social Satire"],
+      "publisher": "T. Egerton, Whitehall",
+      "yearOfPublishing": 1813
+    },
+    {
+      "bookId": 6,
+      "bookName": "Harry Potter and the Philosopher's Stone",
+      "author": "J.K. Rowling",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK_FxlgXB5FIflzr58MnGURwH-iyn6-ZV2eQ&usqp=CAU",
+      "review": "A magical journey of a young wizard discovering his true destiny.",
+      "totalPages": 320,
+      "rating": 4.9,
+      "category": "Fantasy",
+      "tags": ["Magic", "Adventure"],
+      "publisher": "Bloomsbury",
+      "yearOfPublishing": 1997
+    }
+  ]
