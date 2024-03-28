@@ -1,10 +1,10 @@
 import { NavLink, useLoaderData } from "react-router-dom";
-import Book from "../components/Book";
+import Books from "../components/Books";
 
 const Home = () => {
     const books = useLoaderData()
     console.log(books);
-    const { bookName, image } = books[0]
+    const { image } = books[0]
 
     return (
         <div className="workSansFont">
@@ -20,7 +20,7 @@ const Home = () => {
                     <h1 className="text-3xl font-bold text-center">Books</h1>
                     <div className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
                         {
-                            books.map(book=>(<Book book={book} key={book.id} />))
+                            books.map(book=>(<Books book={book} key={book.id} />))
                         }
                         {/*  <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50 hidden sm:block">
                             <img role="presentation" className="object-cover w-full rounded h-44 dark:bg-gray-500" src="https://source.unsplash.com/random/480x360?6" />

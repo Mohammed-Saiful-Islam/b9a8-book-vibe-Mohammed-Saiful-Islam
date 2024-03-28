@@ -3,6 +3,7 @@ import MainLayouts from "../layouts/MainLayouts";
 import Home from "../pages/Home";
 import ListedBooks from "../pages/ListedBooks";
 import PagesToRead from "../pages/PagesToRead";
+import Books from "../components/Books";
 
 export const router = createBrowserRouter(
     [
@@ -20,8 +21,13 @@ export const router = createBrowserRouter(
                     element: <ListedBooks />
                 },
                 {
-                    path: 'pagestoread',
+                    path: '/pagestoread',
                     element: <PagesToRead />
+                },
+                {
+                    path: '/book',
+                    element: <Books />,
+                    loader: () => fetch('../books.json')
                 }
             ]
         }
