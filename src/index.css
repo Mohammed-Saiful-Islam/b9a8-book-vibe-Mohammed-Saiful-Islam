@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.workSansFont {
+  font-family: "Work Sans", sans-serif;
+}
+
+.interFont {
+  font-family: "Inter", sans-serif;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
